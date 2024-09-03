@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* mobile view */
+@media only screen and (min-width: 393px){
+}
+@media only screen and (min-height: 852px) and (orientation: portrait){
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(#061E22,#01323B,#001F39,#001F39);
+ 
+}
+h1 {
+    color: white;
+}
+.container {
+  text-align: center;
+}
+
+#message-form{
+	background-color: transparent;
+	height:250px;
+	width:250px;
+	align-content: center;
+	border: 2px solid #fff;
+  padding: 10px 50px 20px;
+  margin-right: 10%;
+	margin-left: 10%;
+}
+@media (max-width: 852px) { /* Target screens smaller than 768px */
+  message-form {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+.label {
+	font-family: ocr-a-std, monospace;
+font-weight: 400;
+	color: white;
+		font-style: italic;
+font-size: 11px;
+	text-align:center;
+	align-content: center;
+}
+
+#message {
+	width:100%;
+	height:60%;
+	font-family: ocr-a-std, monospace;
+  font-style: normal;
+font-weight: 400;
+font-size: 11px;
+	opacity: 12%;
+	margin: auto;align-content: center;
+}
+
+#submit-button {
+	font-family: ocr-a-std, monospace;
+  font-style: normal;
+font-weight: 400;
+	font-size: 10px;
+  background-color: transparent;
+	color: white;
+	width:auto;
+	height: 35px;
+	align-content: center;
+  border: 2px solid #fff;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	margin: 10px;
+	margin-left: 40%;
+	margin-bottom: 10px;
+}
+
+#submit-button:hover {
+  background-color:#166070;
+  color: white;
+}
